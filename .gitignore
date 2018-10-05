@@ -1,8 +1,9 @@
-# *~
- .pyc
- ~
- __pycache__
- ENV
- db.sqlite3
- /static
- .DS_Store
+{% filename %}.gitignore{% endfilename %}
+
+*.pyc
+*~
+__pycache__
+myvenv
+db.sqlite3
+/static
+.DS_Store
